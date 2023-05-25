@@ -1,0 +1,28 @@
+package atividade;
+
+import java.util.Scanner;
+
+public class atividade01 {
+	
+	public static void main (String[] args) {
+	
+		Scanner ler = new Scanner(System.in);
+		float salario;
+		float abono;
+		float novosalario;
+		
+		System.out.print("Digite o salario: ");
+		salario = ler.nextFloat();
+		
+		System.out.print("Digite o abono: ");
+		abono = ler.nextFloat();
+		
+		System.out.print("Digite o novo salario: ");
+		novosalario = ler.nextFloat();
+		
+		System.out.println("valor total do novo salario é " + novosalario);
+		
+	
+	
+	}
+}
